@@ -1,0 +1,8 @@
+body {
+  padding: 40px;
+}
+
+.chat-history {
+  max-height: 50vh;
+  overflow: scroll;
+}
