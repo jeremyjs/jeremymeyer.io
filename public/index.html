@@ -1,40 +1,75 @@
+
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>jeremymeyer.io | Homepage of Jeremy Meyer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- <nav class="nav-top">
+    <ul>
+      <li class="img"><img class="portrait" src="/img/portrait-32.jpg" alt="Jeremy Meyer"></li>
+      <li class="w-36"><a href="http://blog.jeremymeyer.io" title="Systems Thinking Blog">Blog</a></li>
+      <li class="w-32"><a href="/hire" title="Hire Jeremy">Hire</a></li>
+      <li class="w-66"><a href="/portfolio" title="See Jeremy's Portfolio">Portfolio</a></li>
+    </ul>
+  </nav> -->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+  <header>
+    <img class="portrait" src="/img/portrait-240.jpg" alt="Jeremy Meyer">
+    <h1>
+      <code> Hello, world! </code>
+      <div class="subheader">Welcome to jeremymeyer.io</div>
+    </h1>
+  </header>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+  <section class="main">
+    <p> What can I help you with? </p>
+    <!-- <p> Visit my personal blog, hire me, or view my portfolio: </p> -->
+    <nav class="btn-nav centered">
+      <ul>
+        <li><a href="http://blog.jeremymeyer.io" title="Systems Thinking Blog"><button> Blog </button></a></li>
+        <li><a href="/hire" title="Hire Jeremy"><button> Hire </button></a></li>
+        <li><a href="/portfolio" title="View Jeremy's Portfolio"><button> Portfolio </button></a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- <section class="main">
+    <section class="chat-history">
+      <p>
+        My name is Jeremy. I'm a software engineer. What can I help you with?
+      </p>
+      <p>
+        <em> If you get lost, try <code>"help"</code>.</em>
+      </p>
+    </section>
+    <form class="prompt-form">
+      <input class="prompt" placeholder="Type a request here..." autofocus/>
+    </form>
+  </section> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+  <script>window.$ || document.write('<script src="js/vendor/zepto-1.2.0.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <!-- <script src="js/chat.js"></script> -->
+  <script src="js/main.js"></script>
+  <script src="js/vendor/ga.js"></script>
+</body>
 </html>
+
