@@ -1,6 +1,6 @@
 {
   "name": "jeremymeyer.io",
-  "version": "1.0.0",
+  "version": "0.3.1",
   "description": "jeremymeyer.io",
   "main": "index.js",
   "directories": {
@@ -8,6 +8,9 @@
   },
   "scripts": {
     "eslint": "./node_modules/.bin/eslint",
+    "http-server": "./node_modules/.bin/http-server",
+    "server": "npm run -s http-server ./public/ -p 8080",
+    "start": "npm run -s server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,6 +23,7 @@
     "eslint-config-airbnb-es5": "1.0.9",
     "eslint-plugin-import": "2.0.1",
     "eslint-plugin-jsx-a11y": "2.2.3",
-    "eslint-plugin-react": "6.4.1"
+    "eslint-plugin-react": "6.4.1",
+    "http-server": "0.9.0"
   }
 }
