@@ -7,6 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
+    "deploy": "./bin/deploy.sh",
     "eslint": "./node_modules/.bin/eslint",
     "http-server": "./node_modules/.bin/http-server",
     "server": "npm run -s http-server ./public/ -p 8080",
