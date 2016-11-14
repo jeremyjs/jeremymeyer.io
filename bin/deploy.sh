@@ -5,5 +5,5 @@ ssh -T appuser@192.81.216.138 'bash -s' << EOF
   cd ~/apps/jeremymeyer.io
   git remote update -p
   git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
-  pm2 restart all
+  pm2 restart jeremymeyer.io
 EOF
