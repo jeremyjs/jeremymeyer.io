@@ -138,6 +138,38 @@ section.main {
 }
 
 
+/* Projects */
+
+.projects {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.projects > .project {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  text-decoration: none;
+  color: initial;
+}
+
+.projects > .project:hover {
+  background-color: #ebebeb;
+}
+
+.projects > .project > img {
+  max-width: 240px;
+}
+
+.projects > .project > .description {
+  margin-left: 40px;
+}
+
+
 /* Transitions */
 
 .portrait {
